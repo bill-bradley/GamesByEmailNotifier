@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EBD4FA198ACA7D002BE408 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EBD4F9198ACA7D002BE408 /* Cocoa.framework */; };
+		82EBD504198ACA7D002BE408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD502198ACA7D002BE408 /* InfoPlist.strings */; };
+		82EBD506198ACA7D002BE408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBD505198ACA7D002BE408 /* main.m */; };
+		82EBD50A198ACA7D002BE408 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD508198ACA7D002BE408 /* Credits.rtf */; };
+		82EBD50D198ACA7D002BE408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBD50C198ACA7D002BE408 /* AppDelegate.m */; };
+		82EBD510198ACA7D002BE408 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD50E198ACA7D002BE408 /* MainMenu.xib */; };
+		82EBD512198ACA7D002BE408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD511198ACA7D002BE408 /* Images.xcassets */; };
+		82EBD519198ACA7D002BE408 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EBD518198ACA7D002BE408 /* XCTest.framework */; };
+		82EBD51A198ACA7D002BE408 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EBD4F9198ACA7D002BE408 /* Cocoa.framework */; };
+		82EBD522198ACA7D002BE408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD520198ACA7D002BE408 /* InfoPlist.strings */; };
+		82EBD524198ACA7D002BE408 /* GamesByEmailNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBD523198ACA7D002BE408 /* GamesByEmailNotifierTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EBD51B198ACA7D002BE408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EBD4EE198ACA7D002BE408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EBD4F5198ACA7D002BE408;
+			remoteInfo = GamesByEmailNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82EBD4F6198ACA7D002BE408 /* GamesByEmailNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesByEmailNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EBD4F9198ACA7D002BE408 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82EBD4FC198ACA7D002BE408 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82EBD4FD198ACA7D002BE408 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82EBD4FE198ACA7D002BE408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82EBD501198ACA7D002BE408 /* GamesByEmailNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamesByEmailNotifier-Info.plist"; sourceTree = "<group>"; };
+		82EBD503198ACA7D002BE408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82EBD505198ACA7D002BE408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82EBD507198ACA7D002BE408 /* GamesByEmailNotifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GamesByEmailNotifier-Prefix.pch"; sourceTree = "<group>"; };
+		82EBD509198ACA7D002BE408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82EBD50B198ACA7D002BE408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82EBD50C198ACA7D002BE408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82EBD50F198ACA7D002BE408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82EBD511198ACA7D002BE408 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82EBD517198ACA7D002BE408 /* GamesByEmailNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamesByEmailNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EBD518198ACA7D002BE408 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82EBD51F198ACA7D002BE408 /* GamesByEmailNotifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamesByEmailNotifierTests-Info.plist"; sourceTree = "<group>"; };
+		82EBD521198ACA7D002BE408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82EBD523198ACA7D002BE408 /* GamesByEmailNotifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamesByEmailNotifierTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EBD4F3198ACA7D002BE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EBD4FA198ACA7D002BE408 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EBD514198ACA7D002BE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EBD51A198ACA7D002BE408 /* Cocoa.framework in Frameworks */,
+				82EBD519198ACA7D002BE408 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EBD4ED198ACA7D002BE408 = {
+			isa = PBXGroup;
+			children = (
+				82EBD4FF198ACA7D002BE408 /* GamesByEmailNotifier */,
+				82EBD51D198ACA7D002BE408 /* GamesByEmailNotifierTests */,
+				82EBD4F8198ACA7D002BE408 /* Frameworks */,
+				82EBD4F7198ACA7D002BE408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EBD4F7198ACA7D002BE408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD4F6198ACA7D002BE408 /* GamesByEmailNotifier.app */,
+				82EBD517198ACA7D002BE408 /* GamesByEmailNotifierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EBD4F8198ACA7D002BE408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD4F9198ACA7D002BE408 /* Cocoa.framework */,
+				82EBD518198ACA7D002BE408 /* XCTest.framework */,
+				82EBD4FB198ACA7D002BE408 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82EBD4FB198ACA7D002BE408 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD4FC198ACA7D002BE408 /* AppKit.framework */,
+				82EBD4FD198ACA7D002BE408 /* CoreData.framework */,
+				82EBD4FE198ACA7D002BE408 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82EBD4FF198ACA7D002BE408 /* GamesByEmailNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD50B198ACA7D002BE408 /* AppDelegate.h */,
+				82EBD50C198ACA7D002BE408 /* AppDelegate.m */,
+				82EBD50E198ACA7D002BE408 /* MainMenu.xib */,
+				82EBD511198ACA7D002BE408 /* Images.xcassets */,
+				82EBD500198ACA7D002BE408 /* Supporting Files */,
+			);
+			path = GamesByEmailNotifier;
+			sourceTree = "<group>";
+		};
+		82EBD500198ACA7D002BE408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD501198ACA7D002BE408 /* GamesByEmailNotifier-Info.plist */,
+				82EBD502198ACA7D002BE408 /* InfoPlist.strings */,
+				82EBD505198ACA7D002BE408 /* main.m */,
+				82EBD507198ACA7D002BE408 /* GamesByEmailNotifier-Prefix.pch */,
+				82EBD508198ACA7D002BE408 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82EBD51D198ACA7D002BE408 /* GamesByEmailNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD523198ACA7D002BE408 /* GamesByEmailNotifierTests.m */,
+				82EBD51E198ACA7D002BE408 /* Supporting Files */,
+			);
+			path = GamesByEmailNotifierTests;
+			sourceTree = "<group>";
+		};
+		82EBD51E198ACA7D002BE408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD51F198ACA7D002BE408 /* GamesByEmailNotifierTests-Info.plist */,
+				82EBD520198ACA7D002BE408 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EBD4F5198ACA7D002BE408 /* GamesByEmailNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EBD527198ACA7D002BE408 /* Build configuration list for PBXNativeTarget "GamesByEmailNotifier" */;
+			buildPhases = (
+				82EBD4F2198ACA7D002BE408 /* Sources */,
+				82EBD4F3198ACA7D002BE408 /* Frameworks */,
+				82EBD4F4198ACA7D002BE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamesByEmailNotifier;
+			productName = GamesByEmailNotifier;
+			productReference = 82EBD4F6198ACA7D002BE408 /* GamesByEmailNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82EBD516198ACA7D002BE408 /* GamesByEmailNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EBD52A198ACA7D002BE408 /* Build configuration list for PBXNativeTarget "GamesByEmailNotifierTests" */;
+			buildPhases = (
+				82EBD513198ACA7D002BE408 /* Sources */,
+				82EBD514198ACA7D002BE408 /* Frameworks */,
+				82EBD515198ACA7D002BE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EBD51C198ACA7D002BE408 /* PBXTargetDependency */,
+			);
+			name = GamesByEmailNotifierTests;
+			productName = GamesByEmailNotifierTests;
+			productReference = 82EBD517198ACA7D002BE408 /* GamesByEmailNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EBD4EE198ACA7D002BE408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BillBradley;
+				TargetAttributes = {
+					82EBD516198ACA7D002BE408 = {
+						TestTargetID = 82EBD4F5198ACA7D002BE408;
+					};
+				};
+			};
+			buildConfigurationList = 82EBD4F1198ACA7D002BE408 /* Build configuration list for PBXProject "GamesByEmailNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EBD4ED198ACA7D002BE408;
+			productRefGroup = 82EBD4F7198ACA7D002BE408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EBD4F5198ACA7D002BE408 /* GamesByEmailNotifier */,
+				82EBD516198ACA7D002BE408 /* GamesByEmailNotifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EBD4F4198ACA7D002BE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EBD504198ACA7D002BE408 /* InfoPlist.strings in Resources */,
+				82EBD512198ACA7D002BE408 /* Images.xcassets in Resources */,
+				82EBD50A198ACA7D002BE408 /* Credits.rtf in Resources */,
+				82EBD510198ACA7D002BE408 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EBD515198ACA7D002BE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EBD522198ACA7D002BE408 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EBD4F2198ACA7D002BE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EBD50D198ACA7D002BE408 /* AppDelegate.m in Sources */,
+				82EBD506198ACA7D002BE408 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EBD513198ACA7D002BE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EBD524198ACA7D002BE408 /* GamesByEmailNotifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EBD51C198ACA7D002BE408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EBD4F5198ACA7D002BE408 /* GamesByEmailNotifier */;
+			targetProxy = 82EBD51B198ACA7D002BE408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82EBD502198ACA7D002BE408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EBD503198ACA7D002BE408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82EBD508198ACA7D002BE408 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EBD509198ACA7D002BE408 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82EBD50E198ACA7D002BE408 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EBD50F198ACA7D002BE408 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		82EBD520198ACA7D002BE408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EBD521198ACA7D002BE408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EBD525198ACA7D002BE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82EBD526198ACA7D002BE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82EBD528198ACA7D002BE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GamesByEmailNotifier/GamesByEmailNotifier-Prefix.pch";
+				INFOPLIST_FILE = "GamesByEmailNotifier/GamesByEmailNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82EBD529198ACA7D002BE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GamesByEmailNotifier/GamesByEmailNotifier-Prefix.pch";
+				INFOPLIST_FILE = "GamesByEmailNotifier/GamesByEmailNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82EBD52B198ACA7D002BE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GamesByEmailNotifier.app/Contents/MacOS/GamesByEmailNotifier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GamesByEmailNotifier/GamesByEmailNotifier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GamesByEmailNotifierTests/GamesByEmailNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82EBD52C198ACA7D002BE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GamesByEmailNotifier.app/Contents/MacOS/GamesByEmailNotifier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GamesByEmailNotifier/GamesByEmailNotifier-Prefix.pch";
+				INFOPLIST_FILE = "GamesByEmailNotifierTests/GamesByEmailNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EBD4F1198ACA7D002BE408 /* Build configuration list for PBXProject "GamesByEmailNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EBD525198ACA7D002BE408 /* Debug */,
+				82EBD526198ACA7D002BE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EBD527198ACA7D002BE408 /* Build configuration list for PBXNativeTarget "GamesByEmailNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EBD528198ACA7D002BE408 /* Debug */,
+				82EBD529198ACA7D002BE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82EBD52A198ACA7D002BE408 /* Build configuration list for PBXNativeTarget "GamesByEmailNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EBD52B198ACA7D002BE408 /* Debug */,
+				82EBD52C198ACA7D002BE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EBD4EE198ACA7D002BE408 /* Project object */;
+}
