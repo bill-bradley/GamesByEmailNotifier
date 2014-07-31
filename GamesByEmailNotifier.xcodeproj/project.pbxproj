@@ -18,6 +18,7 @@
 		82EBD51A198ACA7D002BE408 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EBD4F9198ACA7D002BE408 /* Cocoa.framework */; };
 		82EBD522198ACA7D002BE408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD520198ACA7D002BE408 /* InfoPlist.strings */; };
 		82EBD524198ACA7D002BE408 /* GamesByEmailNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBD523198ACA7D002BE408 /* GamesByEmailNotifierTests.m */; };
+		82EBD52F198AD026002BE408 /* pawn_19_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD52E198AD026002BE408 /* pawn_19_19.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		82EBD51F198ACA7D002BE408 /* GamesByEmailNotifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamesByEmailNotifierTests-Info.plist"; sourceTree = "<group>"; };
 		82EBD521198ACA7D002BE408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82EBD523198ACA7D002BE408 /* GamesByEmailNotifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamesByEmailNotifierTests.m; sourceTree = "<group>"; };
+		82EBD52E198AD026002BE408 /* pawn_19_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawn_19_19.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		82EBD4FF198ACA7D002BE408 /* GamesByEmailNotifier */ = {
 			isa = PBXGroup;
 			children = (
+				82EBD52D198AD00A002BE408 /* Images */,
 				82EBD50B198ACA7D002BE408 /* AppDelegate.h */,
 				82EBD50C198ACA7D002BE408 /* AppDelegate.m */,
 				82EBD50E198ACA7D002BE408 /* MainMenu.xib */,
@@ -152,6 +155,14 @@
 				82EBD520198ACA7D002BE408 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82EBD52D198AD00A002BE408 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD52E198AD026002BE408 /* pawn_19_19.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EBD52F198AD026002BE408 /* pawn_19_19.png in Resources */,
 				82EBD504198ACA7D002BE408 /* InfoPlist.strings in Resources */,
 				82EBD512198ACA7D002BE408 /* Images.xcassets in Resources */,
 				82EBD50A198ACA7D002BE408 /* Credits.rtf in Resources */,
