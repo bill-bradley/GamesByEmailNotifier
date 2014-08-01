@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84E15CB8-2A01-4625-B6CA-8C339CE52277</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GamesByEmailNotifier</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>16C6B09E-8226-4CDA-A37B-67D8D36427FD</key>
+		<string>ssh://github.com/bill-bradley/GamesByEmailNotifier.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GamesByEmailNotifier.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>16C6B09E-8226-4CDA-A37B-67D8D36427FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/bill-bradley/GamesByEmailNotifier.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>16C6B09E-8226-4CDA-A37B-67D8D36427FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>16C6B09E-8226-4CDA-A37B-67D8D36427FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GamesByEmailNotifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>

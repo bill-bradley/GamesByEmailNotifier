@@ -674,13 +674,13 @@
                         <action selector="viewMyGames:" target="Voe-Tx-rLC" id="1h0-uX-LJa"/>
                     </connections>
                 </menuItem>
+                <menuItem isSeparatorItem="YES" id="D1N-be-8tw"/>
                 <menuItem title="Check Turns Now" id="hA6-xv-VcX">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="checkForTurns:" target="Voe-Tx-rLC" id="5T1-cz-vXj"/>
+                        <action selector="checkForTurnsClicked:" target="Voe-Tx-rLC" id="bet-eO-6KQ"/>
                     </connections>
                 </menuItem>
-                <menuItem isSeparatorItem="YES" id="D1N-be-8tw"/>
                 <menuItem title="Settings" id="O5T-KN-NOF">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
