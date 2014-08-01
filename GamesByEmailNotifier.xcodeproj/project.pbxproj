@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821CE943198B3FD7005D7C9F /* NoTurns.ico in Resources */ = {isa = PBXBuildFile; fileRef = 821CE941198B3FD7005D7C9F /* NoTurns.ico */; };
+		821CE944198B3FD7005D7C9F /* SleepNoTurns.ico in Resources */ = {isa = PBXBuildFile; fileRef = 821CE942198B3FD7005D7C9F /* SleepNoTurns.ico */; };
 		82EBD4FA198ACA7D002BE408 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EBD4F9198ACA7D002BE408 /* Cocoa.framework */; };
 		82EBD504198ACA7D002BE408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82EBD502198ACA7D002BE408 /* InfoPlist.strings */; };
 		82EBD506198ACA7D002BE408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBD505198ACA7D002BE408 /* main.m */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		821CE941198B3FD7005D7C9F /* NoTurns.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = NoTurns.ico; sourceTree = "<group>"; };
+		821CE942198B3FD7005D7C9F /* SleepNoTurns.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = SleepNoTurns.ico; sourceTree = "<group>"; };
 		82EBD4F6198ACA7D002BE408 /* GamesByEmailNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesByEmailNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EBD4F9198ACA7D002BE408 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		82EBD4FC198ACA7D002BE408 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -160,6 +164,8 @@
 		82EBD52D198AD00A002BE408 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				821CE941198B3FD7005D7C9F /* NoTurns.ico */,
+				821CE942198B3FD7005D7C9F /* SleepNoTurns.ico */,
 				82EBD52E198AD026002BE408 /* pawn_19_19.png */,
 			);
 			name = Images;
@@ -244,7 +250,9 @@
 				82EBD52F198AD026002BE408 /* pawn_19_19.png in Resources */,
 				82EBD504198ACA7D002BE408 /* InfoPlist.strings in Resources */,
 				82EBD512198ACA7D002BE408 /* Images.xcassets in Resources */,
+				821CE943198B3FD7005D7C9F /* NoTurns.ico in Resources */,
 				82EBD50A198ACA7D002BE408 /* Credits.rtf in Resources */,
+				821CE944198B3FD7005D7C9F /* SleepNoTurns.ico in Resources */,
 				82EBD510198ACA7D002BE408 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +486,7 @@
 				82EBD529198ACA7D002BE408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82EBD52A198ACA7D002BE408 /* Build configuration list for PBXNativeTarget "GamesByEmailNotifierTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +495,7 @@
 				82EBD52C198ACA7D002BE408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
