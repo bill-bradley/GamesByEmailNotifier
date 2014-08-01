@@ -88,7 +88,7 @@
     [self checkForTurns];
     
     // check once every 60 seconds
-    [NSTimer scheduledTimerWithTimeInterval:60.0 target:self selector:@selector(runCheckForTurns) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:60.0 target:self selector:@selector(checkForTurns) userInfo:nil repeats:YES];
 }
 
 @end
