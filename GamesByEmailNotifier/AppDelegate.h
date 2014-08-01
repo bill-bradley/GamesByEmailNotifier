@@ -14,6 +14,4 @@
 @property (weak) IBOutlet NSMenu *statusMenu;
 @property (strong, nonatomic) NSStatusItem *statusBar;
 
--(void)runCheckForTurns;
-
 @end
